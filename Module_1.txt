@@ -1,0 +1,255 @@
+📘 Module 1: Introduction to Prompt Engineering (Detailed Explanation)
+
+Module 1 builds the foundation. Students learn how LLMs think, how prompts are interpreted, and how to write clear instructions.
+
+1️⃣ What is Prompt Engineering?
+Definition:
+
+Prompt Engineering is the process of designing clear, structured instructions that help AI models produce accurate, reliable, and high-quality outputs.
+
+Why it matters
+
+LLMs do not think like humans — they generate text based on patterns and probabilities.
+Prompts act like instructions or programming commands for the model.
+
+📌 Example (Bad vs Good Prompt)
+
+❌ Bad Prompt:
+Write something about AI.
+
+✔️ Good Prompt:
+Act as an AI professor. Explain Artificial Intelligence in 5 bullet points with simple language.
+
+Result: Cleaner, accurate output.
+
+2️⃣ Why Prompt Engineering Is a High-Income Skill?
+Reasons:
+
+1-AI is everywhere — businesses need people who know how to control it.
+
+2-Companies lose money due to bad prompts, hallucinations, and poor automation.
+
+3-Prompt Engineers are needed for:
+
+AI automation
+Product development
+AI agents
+Data analysis prompts
+Code generation
+SEO + marketing workflows
+Customer support bots
+
+Salary trends (2026):
+
+US: $140k–$240k
+India: ₹12 LPA – ₹45 LPA
+Freelancing: $50–$150/hr
+
+3️⃣ Types of AI Models
+i. LLMs (Large Language Models)
+
+Models that understand and generate text.
+
+Examples:
+
+GPT-4, GPT-5
+Claude 3
+Gemini
+Llama 3
+
+ii. Vision Models
+
+Models that understand images + text.
+
+Examples:
+
+GPT-4V
+Gemini Vision
+Claude Vision
+
+Use cases:
+
+Image explanation
+Diagram understanding
+Code screenshot → code recreation
+
+iii. Multi-Modal Models
+
+Models that support text + image + audio + video.
+
+Examples:
+
+GPT-5 Omni
+Gemini Ultra
+Claude Opus Vision
+
+Use cases:
+
+Video analysis
+Audio transcription
+Image-to-code
+
+Multi-modal agents
+
+4️⃣ Understanding LLM Architecture — Basic Level
+
+Students don’t need deep ML knowledge, but must know how LLMs think.
+
+Key components:-
+
+Tokens
+Embeddings
+Transformer architecture
+Attention mechanism
+
+📌 Basic Flow
+User prompt → Tokenization → Embedding → Transformer Layers → Output tokens → Response
+
+What is the Transformer?
+
+An LLM architecture that uses attention to understand relationships between words.
+
+What is Attention?
+
+It determines which words matter most in the prompt.
+
+Example:
+In the sentence:
+"The cat sat on the mat because it was tired."
+The word “it” refers to cat, not mat.
+Attention helps LLM understand this.
+
+5️⃣ Tokens, Prompts & Parameters
+i. Tokens
+
+LLMs don’t read full words. They read tokens.
+
+Example:
+“ChatGPT is amazing” → might become → Chat, G, PT, is, amaz, ing
+
+More tokens = more cost + more computation.
+
+ii. Prompt
+
+A prompt is the instruction you give to AI.
+
+Types:
+
+Question
+Instruction
+Task
+Context
+
+Example-based prompt
+
+iii. Important Parameters
+
+1. Temperature
+
+Controls creativity.
+
+Low (0–0.3): More logical
+Medium (0.5–0.7): Balanced
+High (0.8+): Creative, risky
+
+2. Top-P
+
+Controls randomness. Similar to temperature.
+
+3. System Message
+
+Defines AI's role, behavior, and boundaries.
+
+Example:
+You are a professional Python developer. Always give optimized code.
+
+4. Max Tokens
+
+Controls output length.
+
+6️⃣ Prompt Formats
+
+Understanding different prompt styles is critical.
+
+i. Instruct Format
+
+Direct instructions.
+
+Example:
+Explain quantum computing in simple words.
+
+ii. Chat Format
+
+Role + message.
+
+Example:
+System: You are a math tutor.
+User: Explain Pythagoras theorem.
+
+iii. Story Format
+
+Used for fiction, imagination.
+
+Example:
+Write a sci-fi story where humans talk to LLMs.
+
+iv. Code Format
+
+Ask for coding output.
+
+Example:
+
+Write a Python script to extract emails from text.
+
+v. Structured Format
+
+JSON, tables, bullet lists.
+
+Example:
+
+Provide output in JSON:
+{
+ "summary": "",
+ "keywords": []
+}
+
+7️⃣ Common Mistakes Beginners Make
+1. Giving vague instructions
+
+❌ “Write an email.”
+✔️ “Write a formal email to HR asking for leave.”
+
+2. Not specifying output format
+
+❌ "Explain DBMS."
+✔️ “Explain DBMS in 5 bullet points.”
+
+3. Asking multiple tasks in one sentence
+
+❌ “Explain AI, write a report, also give examples.”
+✔️ Break it into steps.
+
+4. No context
+
+LLMs need context to avoid hallucination.
+
+❌ “Write code.”
+✔️ “Write C++ code to sort an array using quicksort.”
+
+5. Not using constraints
+
+LLMs overshoot when not controlled.
+
+8️⃣ Summary — What  Should  you Know After Module 1
+
+By the end of Module 1, You can:
+
+✔ Understand what prompt engineering is
+✔ Know why it’s valuable
+✔ Identify types of AI models
+✔ Understand LLM basics
+✔ Use system messages
+✔ Control temperature, tokens, formatting
+✔ Avoid common prompting mistakes
+✔ Choose the correct prompt format for tasks
+

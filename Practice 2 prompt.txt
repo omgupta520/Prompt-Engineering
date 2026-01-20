@@ -1,0 +1,46 @@
+##### Practice Prompts---->>>>
+
+Use these for hands-on practice:
+
+1. Role Prompting
+
+“Act as a professional math tutor and explain logarithms in simple language using 5 bullet points.”
+
+2. Output Format
+
+“Explain blockchain technology in exactly 6 bullet points. No extra lines.”
+
+3. Temperature Control
+
+“With temperature = 0.2, summarize the paragraph below in one factual paragraph:
+[Paste your text]”
+
+4. Creative Prompting
+
+“Write a short fictional story about a future where LLMs run entire cities.”
+
+5. Bad → Good Prompt Correction
+
+Rewrite this bad prompt into a good prompt:
+“Tell me about planets.”
+
+6. Structured Prompt
+
+“Explain the working of LLMs using the following JSON format:
+
+{
+  "concept": "",
+  "steps": [],
+  "example": ""
+}
+```”
+
+---
+
+### **7. Zero-shot Prompt**
+“Explain the difference between RAM and ROM without using examples.”
+
+---
+
+### **8. Few-shot Prompt**
+**Provide 2 examples**, then ask the model to continue the pattern.

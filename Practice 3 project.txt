@@ -1,0 +1,50 @@
+### **1. Company Description (You create a fictional company)**
+Example:  
+“TechNova AI — a software company providing chatbots and automation.”
+
+---
+
+### **2. Write 10 Prompts for 5 Different Departments**
+- Marketing  
+- HR  
+- Customer support  
+- Development  
+- Data analysis  
+
+Total: **50 prompts**
+
+---
+
+### **3. Categorize Prompts into:**
+- Role prompts  
+- Instruction prompts  
+- Structured prompts  
+- Creative prompts  
+- Reasoning prompts  
+
+---
+
+### **4. Create a Prompt Quality Checklist**
+Must include:  
+✔ Clarity  
+✔ Role definition  
+✔ Constraints  
+✔ Output format  
+✔ No ambiguity  
+✔ No multiple tasks  
+✔ No missing context  
+
+---
+
+### **5. Write 5 Good vs Bad Prompt Examples**
+Show exactly how improvements change the output.
+
+---
+
+### **6. Submit Final Document**
+Format preferred:  
+- PDF or DOCX  
+- Clean structure  
+- Headings + examples  
+- Index page  
+

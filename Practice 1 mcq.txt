@@ -1,0 +1,139 @@
+1. Prompt Engineering is mainly about:
+
+A. Training models
+B. Giving clear instructions to AI
+C. Designing neural networks
+D. Writing long prompts
+
+2. LLM stands for:
+
+A. Large Learning Mechanism
+B. Long Language Model
+C. Large Language Model
+D. Linguistic Logic Model
+
+3. What is a token?
+
+A. A prompt
+B. A piece of text the model reads
+C. A model architecture
+D. An API key
+
+4. Which parameter controls creativity?
+
+A. System role
+B. Tokens
+C. Temperature
+D. Data limit
+
+5. System messages are used for:
+
+A. Formatting
+B. Defining model behavior/role
+C. Storing memory
+D. Debugging
+
+6. Which is an example of a Vision model?
+
+A. GPT-3
+B. Llama 3
+C. GPT-4V
+D. Claude 2
+
+7. A vague prompt usually produces:
+
+A. Accurate answers
+B. Hallucinations or incomplete output
+C. Faster output
+D. Technical code
+
+8. Multi-modal models can process:
+
+A. Text only
+B. Only images
+C. Text + images + audio
+D. Only video
+
+9. Which prompt version is best for strict output?
+
+A. Story format
+B. Chat format
+C. Structured format (JSON/Table)
+D. Creative format
+
+10. LLMs use which architecture?
+
+A. RNN
+B. CNN
+C. Transformer
+D. GAN
+
+11. Chain-of-Thought helps with:
+
+A. Creativity
+B. Step-by-step reasoning
+C. Summaries
+D. Token reduction
+
+12. A bad prompt usually:
+
+A. Has no constraints
+B. Has detailed steps
+C. Uses examples
+D. Uses roles
+
+13. Which is an instruct-style prompt?
+
+A. “You are a tutor…”
+B. “Write a story…”
+C. “Explain gravity in 5 lines.”
+D. “{title: , summary: }”
+
+14. What does low temperature do?
+
+A. Makes output more random
+B. Increases creativity
+C. Makes answers more accurate/logical
+D. Writes longer output
+
+15. Output format should be mentioned to:
+
+A. Reduce cost
+B. Improve clarity
+C. Make prompts shorter
+D. Hide mistakes
+
+16. Beginners often forget to:
+
+A. Add examples
+B. Add system roles
+C. Specify output format
+D. All of these
+
+17. “Act as a senior Python developer” is an example of:
+
+A. Few-shot prompt
+B. Story prompt
+C. Role prompt
+D. No-shot prompt
+
+18. Why do LLMs hallucinate?
+
+A. Too much data
+B. Bad or incomplete prompts
+C. No GPU
+D. Limited tokens
+
+19. Which is NOT a prompt format?
+
+A. Code
+B. Story
+C. Image prompt
+D. Neural prompt
+
+20. The attention mechanism in transformers helps the model:
+
+A. Identify mistakes
+B. Focus on important words
+C. Translate languages
+D. Compress text
