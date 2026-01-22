@@ -1,0 +1,188 @@
+Practice Exercises for Prompting Foundations
+
+Exercise Set 1: Clear vs Vague Instructions----------------------------------
+
+1. Rewrite the following vague prompts into clear prompts:
+
+“Tell me about AI.”
+
+“Explain Python.”
+
+“Write a paragraph about internet.”
+
+“Teach me coding.”
+
+“Explain ML algorithm.”
+
+Your task:
+
+Rewrite each into a clear, specific, structured prompt with constraints (tone, format, output length).
+
+Exercise Set 2: Role Prompting------------------------------------------------
+Assign the right role to improve the response quality.
+
+Convert the following instructions into role-based prompts:
+
+“Fix my JavaScript code.”
+
+“Explain this math problem.”
+
+“Make my resume better.”
+
+“Prepare me for an interview.”
+
+“Explain this DSA concept.”
+
+Goal:
+
+Add an appropriate role like “You are a senior JavaScript developer”, etc.
+
+Exercise Set 3: Task Decomposition---------------------------------------
+Break these tasks into 4–6 smaller steps:
+
+“Build a weather forecast app.”
+
+“Create a personal portfolio website.”
+
+“Make a chatbot using Python.”
+
+“Explain how to start a YouTube channel.”
+
+“Develop a basic calculator app.”
+
+Exercise Set 4: Chain-of-Thought------------------------------------------
+Ask the AI to show step-by-step reasoning for the following problems:
+
+“A car travels 540 km in 6 hours. Find speed.”
+
+“Find LCM of 12 and 18.”
+
+“You buy a phone for ₹20,000 and sell at ₹25,000. Find profit %.”
+
+“In an exam, you scored 45 out of 60. Find percentage.”
+
+“Solve: 18 + (6 × 5) – 12.”
+
+Exercise Set 5: Few-Shot Prompting------------------------------------------
+
+Provide two examples and then ask the model to continue the pattern.
+
+Try these tasks:
+
+Convert rude → polite messages
+
+Convert long sentences → short summaries
+
+Classify sentences as spam or not spam
+
+Convert English → Hinglish
+
+Rewrite in formal tone → informal tone
+
+Example task:
+Provide 2 polite conversion examples and ask the AI to convert a new sentence.
+
+Exercise Set 6: Zero-Shot Prompting---------------------------------------------
+
+Use zero-shot prompting for:
+
+Sentiment classification
+
+Summarization
+
+Language translation
+
+Tagging keywords
+
+Explaining a concept
+
+Example:
+“Summarize this text in one sentence: (add any short paragraph).”
+
+Exercise Set 7: Constraints Practice-----------------------------------------
+
+Add constraints (tone, format, word limit, rules) to these tasks:
+
+“Explain cloud computing.”
+
+“Write a short bio for Instagram.”
+
+“Describe blockchain.”
+
+“Explain OOP.”
+
+“Create a to-do list app idea.”
+
+Example:
+“Explain cloud computing in 5 bullet points under 60 words using beginner-friendly tone.”
+
+Real-Life Examples of Prompt Engineering---------------------------------------
+
+These examples show how prompts are used in actual jobs, especially in tech careers you’re pursuing (AI/ML, development, data analysis).
+
+1. Software Development
+Task: Debugging
+
+Prompt:
+“You are a senior Python developer.
+Find the bug in this code and explain the fix in 3 points.
+Code: (paste code)”
+
+Why it works: Clear role + clear expectation.
+2. Resume/CV Building
+
+Prompt:
+“You are a professional resume writer.
+Rewrite the following experience in strong action verbs and ATS keywords. Keep it within 3 bullet points.”
+
+3. Learning New Concepts
+
+Prompt:
+“You are a math tutor.
+Explain gradient descent with an analogy and a simple graph explanation.
+Use a friendly tone.”
+
+4. Data Analysis
+
+Prompt:
+“You are a data analyst.
+Summarize insights from this CSV in bullet points.
+Focus on trends and anomalies.”
+
+5. AI/ML Model Explanation
+
+Prompt:
+“Explain Random Forest like I am 16 years old.
+Use 5 bullet points and one real-life example (like fraud detection).”
+
+6. Customer Support
+
+Prompt:
+“You are a polite customer support agent.
+Write a response to a customer who is angry because their order is late.”
+
+7. Email Writing
+
+Prompt:
+“You are a formal email assistant.
+Write a professional email to HR asking for correction in salary slip.”
+
+8. Marketing & Content Writing
+
+Prompt:
+“You are a digital marketer.
+Write an Instagram caption for a tech reel in a funny tone.
+Limit: 20–25 words.”
+
+9. Coding Help (Your projects: OCR / DSA)
+
+Prompt:
+“You are a computer vision expert.
+Explain how to detect handwritten text in video frames and convert to PDF.
+Break it into clear steps.”
+
+10. Interview Preparation (Your Sparks 18 interview)
+
+Prompt:
+“You are an interviewer for Next Gen Software Engineer role.
+Ask me 5 DSA and 5 ML questions.”

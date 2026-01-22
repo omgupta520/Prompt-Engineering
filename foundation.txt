@@ -1,0 +1,211 @@
+Module 2: Prompting Foundations (Teaching Material)
+
+Master the core techniques that make prompts accurate, predictable, and powerful.
+1. Rules of Effective Prompting
+✔ 1. Be Clear, Not Clever
+
+AI understands clarity more than creativity.
+
+Bad Prompt:
+“Tell me something about computers.”
+Good Prompt:
+“Explain how a CPU works in simple language (5–6 lines).”
+
+✔ 2. Provide Context
+
+Context = who you are, what you want, why you want it.
+
+Example:
+“You are a Python tutor. Teach me list comprehension with two examples.”
+
+✔ 3. Define the Output Format
+
+Tell the AI exactly what to return.
+
+Examples:
+
+“Give output in bullet points.”
+
+“Return answer in a table.”
+
+“Explain in 100 words.”
+
+✔ 4. Provide Constraints
+
+Limitations make outputs cleaner.
+
+Examples:
+
+“Explain in 2 steps.”
+
+“Use only beginner-friendly terms.”
+
+“Do not use equations.”
+
+✔ 5. Avoid Ambiguity
+
+Be specific with terms like “summarize”, “explain”, “analyze”.
+
+Example:
+Instead of: “Explain AI”
+Say: “Explain Artificial Intelligence in simple terms for a beginner with 2 examples from daily life.”
+
+2. Clear Instructions vs Vague Instructions
+Vague Prompt Example
+
+“Write something about machine learning.”
+
+→ Output will be random and unfocused.
+
+Clear Prompt Example
+
+“Explain machine learning in simple language for a 12-year-old. Use 5 bullet points and give one real-life example like YouTube recommendations.”
+
+→ Output becomes accurate, structured, and useful.
+
+3. Role Prompting
+
+AI performs better when you assign it a role.
+
+Examples of Roles
+
+“You are a senior Python developer.”
+
+“You are a math tutor.”
+
+“You are an interviewer for a software engineering role.”
+
+“Act like a therapist who speaks politely.”
+
+Example Prompt
+
+“You are a DSA instructor. Teach me binary search using examples and code in C++.”
+
+4. Task Decomposition
+
+Break a complex task into smaller steps — AI performs each step better.
+
+Example Problem:
+
+“Explain how to build a weather app.”
+
+Decomposed Prompt:
+
+“Step 1: Introduce how weather APIs work.”
+
+“Step 2: Explain how to fetch API data using Python.”
+
+“Step 3: Show how to display results in a simple UI.”
+
+“Step 4: Give the final combined code.”
+
+This method increases accuracy and clarity.
+
+5. Chain-of-Thought Basics
+
+Chain-of-Thought = Asking the AI to show its reasoning step-by-step.
+
+Example:
+
+Prompt:
+“Show step-by-step reasoning to solve: A train travels 300 km in 4 hours. What is the speed?”
+
+Response:
+
+Distance = 300 km
+
+Time = 4 hr
+
+Speed = Distance / Time = 300/4
+
+Speed = 75 km/hr
+
+→ Useful for math, logic, explanations, and teaching.
+
+6. Few-Shot Prompting
+
+Give examples so the AI understands the pattern.
+
+Example:
+
+“Convert sentences into polite versions.
+Examples:
+
+‘Send the file now.’ → ‘Could you please send the file when you get time?’
+
+‘Fix this bug.’ → ‘Can you please look into this bug?’
+Now convert:
+‘Come to my office.’”
+
+→ AI follows the style of your examples.
+
+Use this for:
+✔ Text conversion
+✔ Style learning
+✔ Pattern-based tasks
+✔ Classification
+
+7. Zero-Shot Prompting
+
+Ask AI to do a task without examples.
+Works well when the instruction is clear.
+
+Example:
+
+“Classify this sentence as positive, negative, or neutral:
+‘I loved the new iPhone camera.’”
+
+→ AI generates the answer without seeing samples.
+
+Use for:
+✔ Classification
+✔ Summary
+✔ Explanation
+✔ Translation
+
+8. Using Constraints (Tone, Format, Rules)
+Tone Constraints
+
+formal
+friendly
+aggressive
+professional
+humorous
+
+Example:
+“Explain cloud computing in a friendly tone.”
+
+Format Constraints
+
+bullets
+table
+paragraphs
+code block
+JSON
+
+Example:
+“Give me a comparison of C vs C++ in a 2-column table.”
+
+Rule Constraints
+
+Set limits the AI must follow.
+
+Example:
+
+“Explain AI in 5 bullet points.
+
+Rules:
+
+No technical jargon.
+No examples from robotics.
+Keep it under 80 words.”
+Final Summary (What Students Learn)
+
+By the end of Module 2, you will be able to:
+
+✔ Write prompts that give accurate, clean outputs
+✔ Use roles, format, and tone to guide the AI
+✔ Break tasks into smaller logical steps
+✔ Apply zero-shot and few-shot prompting
+✔ Use constraints to control the model
+✔ Practice chain-of-thought for deep understanding
