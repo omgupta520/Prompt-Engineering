@@ -1,0 +1,67 @@
+Practice Set 1: Apply Each Technique--------------
+
+1. Advanced Role Prompting
+
+Task:
+Create a prompt that makes the AI act as a university professor teaching gradient descent to first-year students.
+
+2. Content Framing
+
+Task:
+Write a prompt that asks the AI to explain cloud computing
+—but framed as if it's being explained to a shopkeeper with no tech background.
+
+3. Knowledge Prompting
+
+Given the facts:
+
+Model: YOLOv8
+
+Task: Whiteboard marker detection
+
+Output: Extract words and create a PDF
+
+Task:
+Create a prompt that uses these facts properly to ask the AI for a project introduction.
+
+4. Multi-step Reasoning Prompt
+
+Task:
+Write a prompt that forces AI to:
+
+Identify causes of overfitting
+
+Explain solutions
+
+Give an example
+
+Summarize in 5 lines
+
+5. Self-Consistency Prompt
+
+Task:
+Create a prompt where the AI must generate 3 different approaches to optimize SQL queries and then select the best one.
+
+6. Rewriting / Refactoring Prompt
+
+Task:
+Write a prompt that asks the AI to rewrite a technical paragraph into a simpler version for a school student.
+
+7. Prompt Debugging
+
+Fix this vague prompt:
+“Explain AI clearly.”
+
+Rewrite it into a detailed, structured, non-hallucinating prompt.
+
+8. Safe Prompt Writing
+
+Write a prompt that asks about cybersecurity basics while explicitly preventing illegal hacking information.
+
+9. Hallucination Avoidance
+
+Write a prompt that includes:
+
+“Answer only using known facts.”
+
+“Say ‘I don’t know’ if unsure.”

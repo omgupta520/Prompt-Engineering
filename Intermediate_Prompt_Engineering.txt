@@ -1,0 +1,160 @@
+Module 3: Intermediate Prompt Engineering
+
+Deepen your prompting skills with advanced techniques that boost accuracy, reasoning, and safety. This module covers role prompting, content framing, multi-step reasoning, and debugging prompts.
+
+1. Advanced Role Prompting
+
+Role prompting sets the AI’s perspective, expertise level, and behavior.
+It shapes how the model thinks before answering.
+
+What it is:
+
+Assigning a specific role to the model so that it responds with expertise, tone, and structure as required.
+
+Examples
+
+“You are a senior data scientist. Explain random forests to a beginner.”
+
+“Act as an interviewer. Ask me 10 DSA questions.”
+
+“Be my Spanish tutor. Talk to me in simple Spanish.”
+
+Why it matters
+
+✔ Creates context
+✔ Improves response relevance
+✔ Ensures consistency
+
+2. Content Framing
+
+You tell the model the angle or frame in which to think.
+
+Frames you can use
+
+Time frame → “Explain AI as if it's 2035.”
+
+Audience frame → “Explain DBMS to a school student.”
+
+Persona frame → “Describe the internet like a poet.”
+
+Goal frame → “Explain PCA focusing only on intuition, not math.”
+
+Example
+
+Prompt:
+“Explain blockchain from the perspective of a bank manager who is worried about security.”
+
+3. Knowledge Prompting
+
+Providing relevant facts, definitions, or constraints inside the prompt so the model reasons using your supplied data.
+
+When to use
+
+When you want precise answers
+
+When the topic is technical
+
+When hallucinations must be avoided
+
+Example
+
+Prompt:
+“Here are facts about my project:
+• It uses OpenCV for text extraction
+• It detects handwriting from videos
+• It converts frames into PDFs
+Using this, generate a project abstract.”
+
+4. Multi-Step Reasoning Prompts
+
+Break a complex task into steps so the model reasons in stages.
+
+Template
+Understand the problem
+Break into steps
+Solve step-by-step
+Combine results
+
+Example
+
+“Explain how a CNN works. First list the components, then explain each part, then give an example, then summarize in 5 points.”
+
+Why it's powerful
+
+✔ Forces logical structure
+✔ Reduces errors
+✔ Produces teachable explanations
+
+5. Self-Consistency Prompts
+
+AI generates multiple reasoning paths → chooses the most consistent answer.
+
+Prompt Style
+
+“Give 3 different ways to approach the problem, then choose the most reliable solution.”
+
+Example
+
+“Explain how to optimize a SQL query. Provide 3 approaches and pick the best one.”
+
+This reduces hallucinations and improves reasoning quality.
+
+6. Rewriting / Refactoring Prompts
+
+Tell the AI to transform an existing text without changing its meaning.
+
+Common use-cases
+Make text formal
+Simplify content
+Convert bullet points to paragraphs
+Improve clarity
+Optimize code logic
+
+Examples
+
+“Rewrite this to be more polite.”
+
+“Refactor the given Python code for better performance.”
+
+7. Prompt Debugging & Troubleshooting
+
+Fixing prompts that produce wrong or incomplete results.
+
+Common Issues
+Problem	Reason	Fix
+Hallucinations	vague prompt	add constraints + knowledge
+Too long/short	no format specified	specify structure
+Wrong tone	no tone instructions	set audience + tone
+Missing details	ambiguous ask	use checklist prompts
+Debugging Example
+
+Faulty prompt: “Explain ML.”
+Improved:
+“Explain machine learning in 5 bullet points with real-world examples for beginners.”
+
+8. Writing Safe Prompts
+
+Ensure the model avoids harmful output.
+How to write safe prompts
+Avoid asking for unethical actions
+Provide safety rules in the prompt
+Set boundaries explicitly
+
+Example
+
+“You are a responsible AI. Provide information about cybersecurity, but do NOT give any illegal hacking steps.”
+
+9. Avoiding Hallucinations
+
+Hallucinations happen when the model “fills in” missing information.
+
+Techniques to reduce them
+
+✔ Provide all required information
+✔ Ask the model to verify facts
+✔ Use citations or “If you don’t know, say you don’t know”
+✔ Use structured prompts
+
+Example Prompt
+
+“If the answer is unknown, respond with: ‘Insufficient data to answer.’ Don’t assume anything.”

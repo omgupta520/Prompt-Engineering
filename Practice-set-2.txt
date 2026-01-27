@@ -1,0 +1,71 @@
+Practice Set 2: Realistic Scenario Tasks
+
+
+1. Create a Role-Based Tutor Prompt
+
+Make a prompt that turns the AI into an interviewer asking DSA coding questions at increasing difficulty levels.
+
+2. Frame Content for a Specific Audience
+
+Write a prompt to explain blockchain to your Spanish-speaking girlfriend, using simple English + small Spanish hints.
+
+(Use your real-life context 😊)
+
+3. Knowledge Prompting With Context
+
+Use this info:
+
+You are building an OCR + object detection whiteboard project
+
+It extracts text from a live lecture
+
+Converts output to PDF
+
+Uses OpenCV + TensorFlow
+
+Task:
+Create a prompt that asks AI to generate a problem statement using ONLY these facts.
+
+4. Multi-Step Analysis Prompt
+
+Create a prompt where the AI must:
+
+List types of neural networks
+
+Explain each
+
+Compare them
+
+Give the best one for image classification
+
+Justify the answer
+
+5. Self-Consistency Reasoning Task
+
+Write a prompt that asks the AI to:
+
+Propose 3 ways to improve a student's ML study plan
+
+Then choose the most realistic method
+
+Then justify its selection
+
+6. Refactoring Prompt
+
+Give a prompt asking the AI to refactor a poorly written C code snippet for readability + performance.
+
+7. Debug a Faulty Prompt
+
+Fix this prompt:
+“Tell me everything about machine learning.”
+
+Rewrite a clear, structured, goal-specific version.
+
+8. Write a Safe Prompt
+
+Write a prompt that asks the AI to explain social engineering attacks but must not give actionable harmful steps.
+
+9. Hallucination-Control Prompt
+
+Write a prompt where the AI must answer using ONLY verified information and include:
+“If any detail is uncertain, respond with: ‘Not enough data.’”
