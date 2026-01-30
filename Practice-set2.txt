@@ -1,0 +1,99 @@
+⭐ Practice Set 2 — Real-World Scenario Tasks
+
+These tasks combine multiple expert prompt patterns in real practical use-cases.
+
+1. ReAct + Scratchpad
+
+Write a prompt that forces the AI to analyze a student’s monthly expenses using Reason → Action → Observation, and perform all calculations in a scratchpad.
+
+2. Tree-of-Thought for Career Planning
+
+Write a ToT-style prompt that helps a student choose between:
+
+Data Science
+
+Cybersecurity
+
+Full-Stack Development
+
+AI must generate 3 branches, evaluate each, and choose the best based on criteria.
+
+3. Graph Prompting for DBMS
+
+Create a graph-prompt asking the AI to explain how transactions, locks, ACID properties, and concurrency control interact in DBMS.
+
+4. Auto-Prompting for Project Idea
+
+Ask AI to first generate the best prompt possible and then give you 5 innovative AI project ideas for ECE students.
+
+5. Wizard-of-Thought for Coding Debugging
+
+Write a wizard-style guided prompt where the AI must help a beginner debug this:
+
+for(int i = 1; i <= 5; i++);
+{
+    cout << i;
+}
+
+
+AI must teach slowly with hints.
+
+6. Schema-Driven Prompt for ML Concepts
+
+Provide this schema:
+
+{
+  "name": "",
+  "definition": "",
+  "math_form": "",
+  "use_cases": [],
+  "pros": [],
+  "cons": []
+}
+
+
+Create a prompt asking AI to fill it for “Softmax Regression.”
+
+7. Meta Prompt for Safer Output
+
+Write a meta prompt ensuring AI:
+
+Avoids hallucinations
+
+Says “Unknown” if unsure
+
+Uses only verified facts
+
+Does not add imaginary sources
+Topic: “History of Deep Learning.”
+
+8. Reflexion Prompting for Code Quality
+
+Write a prompt where AI must:
+
+Write Python code to reverse a linked list
+
+Review its code
+
+Improve it
+
+Explain the improvements
+
+9. Deliberate Prompting for Comparison
+
+Write a prompt telling AI to think deeply and compare:
+SVM vs Decision Tree vs Random Forest
+→ List considerations
+→ Analyze each
+→ Give final conclusion
+
+10. Mixed Pattern: (ToT + Meta + Schema)
+
+Write a single prompt where AI must:
+
+Follow a schema
+
+Use tree-of-thought reasoning
+
+Follow meta instructions (factual, step-by-step, no assumptions)
+Topic: “Explain Reinforcement Learning.”

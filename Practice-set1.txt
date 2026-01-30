@@ -1,0 +1,91 @@
+⭐ Practice Set 1 — Technique-by-Technique Tasks
+
+Each question asks the student to create a prompt using a specific expert prompt pattern.
+
+1. ReAct Prompting
+
+Create a ReAct-style prompt to solve this problem:
+A shopkeeper buys 50 chocolates and sells 17. How many are left?
+
+Your prompt must include:
+
+Thought
+
+Action
+
+Observation
+
+Final Answer
+
+2. Tree-of-Thought Prompting
+
+Create a ToT prompt that forces the AI to generate 3 different approaches to plan a 1-month DSA study schedule and then select the best one.
+
+3. Graph Prompting
+
+Write a prompt asking AI to explain how an LSTM works using a graph structure:
+
+Nodes = components
+
+Edges = relationships
+
+Final answer = graph-based explanation
+
+4. Auto-Prompting
+
+Write a prompt that tells AI to first create the best possible prompt to explain “Neural Style Transfer,” and then answer using that generated prompt.
+
+5. Wizard-of-Thought Prompting
+
+Write a prompt that makes the AI explain time complexity analysis as if it is a wizard teaching a beginner, using step-by-step hints.
+
+6. Scratchpad Prompting
+
+Create a prompt where the AI must solve:
+“What is 489 × 27?”
+using a scratchpad to show all intermediate steps before giving the final answer.
+
+7. Schema-Driven Prompt
+
+Provide a JSON schema for explaining “Decision Trees”:
+
+{
+  "definition": "",
+  "components": [],
+  "example": "",
+  "advantages": [],
+  "disadvantages": []
+}
+
+
+Ask the AI to fill this schema strictly without extra text.
+
+8. Meta Prompting
+
+Create a meta prompt that instructs the AI to:
+
+Think step-by-step
+
+Avoid assumptions
+
+Use factual information
+
+Format answer in clear bullet points
+
+Use the topic: “Explain overfitting in machine learning.”
+
+9. Reflexion Prompting
+
+Create a prompt where the AI must:
+
+Give an answer about “Regularization techniques.”
+
+Review its own answer and identify mistakes.
+
+Produce an improved answer.
+
+10. Deliberate Prompting
+
+Create a prompt that forces the AI to “think carefully” about:
+“How to choose the best machine learning algorithm for a dataset.”
+The AI must list considerations → analyze them → then give a final recommendation.
