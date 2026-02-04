@@ -1,67 +1,119 @@
-Practice Set 1: Apply Each Technique--------------
+🧩 Solving Practice Set 1
 
-1. Advanced Role Prompting
+Focus: Code Understanding • Generation • Debugging • Logic → Code
 
-Task:
-Create a prompt that makes the AI act as a university professor teaching gradient descent to first-year students.
+🔹 Question 1: Code Explanation (Understanding Code)
+Given Code (Python)
+def count_even(nums):
+    count = 0
+    for n in nums:
+        if n % 2 == 0:
+            count += 1
+    return count
 
-2. Content Framing
+Student Task:
 
-Task:
-Write a prompt that asks the AI to explain cloud computing
-—but framed as if it's being explained to a shopkeeper with no tech background.
+Use AI and solve the following:
 
-3. Knowledge Prompting
+Explain the code line by line.
 
-Given the facts:
+Explain it for a beginner.
 
-Model: YOLOv8
+Find time and space complexity.
 
-Task: Whiteboard marker detection
+Mention edge cases this code handles or misses.
 
-Output: Extract words and create a PDF
+Refactor the code and explain improvements.
 
-Task:
-Create a prompt that uses these facts properly to ask the AI for a project introduction.
+📌 Skills Tested:
+Prompting for explanation + optimization thinking
 
-4. Multi-step Reasoning Prompt
+🔹 Question 2: Code Generation (Good Prompting)
+Problem:
 
-Task:
-Write a prompt that forces AI to:
+Check whether a string is an anagram of another string.
 
-Identify causes of overfitting
+Student Task:
 
-Explain solutions
+Write a proper AI prompt including:
 
-Give an example
+Language: Python
 
-Summarize in 5 lines
+Constraints
 
-5. Self-Consistency Prompt
+Case-insensitive comparison
 
-Task:
-Create a prompt where the AI must generate 3 different approaches to optimize SQL queries and then select the best one.
+Ignore spaces
 
-6. Rewriting / Refactoring Prompt
+Generate the solution using AI.
 
-Task:
-Write a prompt that asks the AI to rewrite a technical paragraph into a simpler version for a school student.
+Explain why the approach works.
 
-7. Prompt Debugging
+📌 Skills Tested:
+Requirement-based prompting + explanation
 
-Fix this vague prompt:
-“Explain AI clearly.”
+🔹 Question 3: Debugging Code (Logical Error)
+Given Code (C)
+int factorial(int n) {
+    int fact = 0;
+    for(int i = 1; i <= n; i++) {
+        fact = fact * i;
+    }
+    return fact;
+}
 
-Rewrite it into a detailed, structured, non-hallucinating prompt.
+Student Task:
 
-8. Safe Prompt Writing
+Find the bug using AI.
 
-Write a prompt that asks about cybersecurity basics while explicitly preventing illegal hacking information.
+Explain why the output is always 0.
 
-9. Hallucination Avoidance
+Fix the code without changing structure.
 
-Write a prompt that includes:
+Add input validation.
 
-“Answer only using known facts.”
+📌 Skills Tested:
+Debugging + reasoning + AI explanation
 
-“Say ‘I don’t know’ if unsure.”
+🔹 Question 4: Logic → Code Conversion
+Given Logic:
+
+Take an integer input.
+If the number is negative, print “Invalid”.
+If it is even, print “Even”.
+Otherwise, print “Odd”.
+
+Student Task:
+
+Ask AI to first explain the logic.
+
+Convert logic into Java code.
+
+Add comments and dry run.
+
+Make it interview-ready.
+
+📌 Skills Tested:
+Logic → Code + structured prompting
+
+🔹 Question 5: Optimization (Time Complexity)
+Given Code (Brute Force)
+def pair_sum(nums, target):
+    for i in range(len(nums)):
+        for j in range(i+1, len(nums)):
+            if nums[i] + nums[j] == target:
+                return True
+    return False
+
+Student Task:
+
+Optimize the solution using AI.
+
+Reduce time complexity.
+
+Compare brute force vs optimized approach.
+
+Explain why optimized solution is better.
+
+📌 Skills Tested:
+Optimization + comparative prompting

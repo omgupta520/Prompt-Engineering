@@ -1,0 +1,233 @@
+Module 5: Prompting for Coding & Debugging
+🎯 Module Objective
+
+By the end of this module, learners will be able to:
+
+Use AI effectively to understand, write, debug, and optimize code
+
+Convert logic → clean code
+
+Write secure, scalable, and optimized solutions
+
+Think at architecture level, not just syntax level
+
+1️⃣ Prompts for Explaining Code  
+📌 Why this matters
+
+Developers often read unfamiliar code:
+
+Legacy code
+
+Open-source repositories
+
+Interview problems
+
+Production bugs
+
+AI can act as a code reviewer + tutor.
+
+🔹 Basic Explanation Prompts
+Explain this code line by line.
+
+Explain this code in simple terms for a beginner.
+
+Explain this code assuming I know DSA but not this language.
+
+🔹 Advanced Explanation Prompts
+Explain the time and space complexity of this code.
+
+What edge cases does this code handle or miss?
+
+Refactor this code and explain the improvements.
+
+🔹 Teaching Tip
+
+👉 Encourage learners to paste code + add context (language, level, goal).
+
+2️⃣ Prompts for Generating Code
+📌 Why this matters
+
+AI is powerful only when the requirements are clear.
+
+🔹 Poor Prompt ❌
+Write code for login system
+
+🔹 Good Prompt ✅
+Write a login system in Java using Spring Boot.
+Requirements:
+- JWT authentication
+- Password hashing
+- Role-based access
+- MySQL database
+
+🔹 Common Code Generation Prompts
+Generate a clean and optimized solution for this problem.
+
+Write production-ready code with proper error handling.
+
+Write code following industry best practices.
+
+Generate unit tests for this function.
+
+🔹 Constraint-based Prompting
+Solve this problem in O(n) time and O(1) space.
+
+3️⃣ Prompts for Debugging Code
+📌 Why this matters
+
+Debugging takes 30–50% of real dev time.
+
+🔹 Basic Debugging Prompts
+Find the bug in this code.
+
+Why is this code giving wrong output?
+
+Why am I getting this runtime error?
+
+🔹 Advanced Debugging Prompts
+Explain why this solution fails for edge cases.
+
+Debug this code without changing its structure.
+
+Compare my solution with an optimal one and point out mistakes.
+
+🔹 Stack Trace Prompting
+Here is the error message and stack trace.
+Explain the root cause and fix it.
+
+4️⃣ Prompts for Converting Logic to Code
+📌 Why this matters
+
+Many learners know logic but struggle with implementation.
+
+🔹 Logic → Code Prompts
+Convert this algorithm into C++ code.
+
+Convert this pseudocode into Python.
+
+Translate this flowchart into Java code.
+
+🔹 Step-by-Step Prompting
+First explain the approach, then write the code.
+
+Break the solution into functions and then implement them.
+
+🔹 Interview-Focused Prompt
+Write interview-ready code with comments and dry run.
+
+5️⃣ Secure Coding Prompts
+📌 Why this matters
+
+Security issues = real-world failures
+AI can help identify vulnerabilities early.
+
+🔹 Secure Coding Prompts
+Review this code for security vulnerabilities.
+
+Is this code vulnerable to SQL Injection or XSS?
+
+Rewrite this code following secure coding practices.
+
+Add input validation and sanitization.
+
+🔹 Security-Specific Use Cases
+Secure this REST API.
+
+Implement password hashing and salting.
+
+Prevent race conditions in this code.
+
+6️⃣ Architecture-Level Prompting
+📌 Why this matters
+
+Senior engineers think in:
+
+Components
+
+Scalability
+
+Fault tolerance
+
+Design patterns
+
+🔹 Architecture Design Prompts
+Design a scalable architecture for an e-commerce application.
+
+Suggest system architecture for 1M concurrent users.
+
+Design this system using microservices.
+
+🔹 Comparison Prompts
+Compare monolithic vs microservices for this use case.
+
+Which design pattern fits this problem and why?
+
+🔹 Real-World Prompt
+Design this system assuming AWS cloud deployment.
+
+7️⃣ Improving Time & Space Complexity Using Prompts
+📌 Why this matters
+
+Optimization separates good devs from great devs.
+
+🔹 Optimization Prompts
+Optimize this solution for time complexity.
+
+Reduce space complexity without changing logic.
+
+Is there a better algorithm for this problem?
+
+🔹 Comparative Prompting
+Compare brute force vs optimized approach.
+
+Explain why this solution is better than mine.
+
+🔹 Interview-Oriented Prompt
+Optimize this code to pass large input constraints.
+
+8️⃣ Best Practices for Prompting (Golden Rules)
+✅ Be specific
+
+Bad:
+
+Fix this code
+
+
+Good:
+
+Fix this code for runtime error and optimize it for O(n).
+
+✅ Add constraints
+
+Language
+
+Complexity
+
+Style
+
+Use case (interview / production)
+
+✅ Ask for explanations
+Explain why this approach works.
+
+9️⃣ Hands-on Exercises (For Students)
+
+Explain given LeetCode solution using AI
+
+Generate optimized code from brute force
+
+Debug intentionally broken code
+
+Convert algorithm → implementation
+
+Improve time complexity using AI prompts
+
+Review code for security flaws
+
+🔚 Module Outcome
+
+After this module, learners can:
+✔ Use AI like a senior coding partner
+✔ Debug faster
+✔ Write optimized & secure code
+✔ Think beyond syntax → architecture + performance

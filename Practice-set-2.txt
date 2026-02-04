@@ -1,71 +1,105 @@
-Practice Set 2: Realistic Scenario Tasks
+🚀 Solving Practice Set 2
 
+Focus: Security • Architecture • Performance • Real-World Thinking
 
-1. Create a Role-Based Tutor Prompt
+🔹 Question 1: Secure Coding Review
+Given Code (Python)
+query = "SELECT * FROM users WHERE email = '" + email + "'"
+cursor.execute(query)
 
-Make a prompt that turns the AI into an interviewer asking DSA coding questions at increasing difficulty levels.
+Student Task:
 
-2. Frame Content for a Specific Audience
+Ask AI to review this code for vulnerabilities.
 
-Write a prompt to explain blockchain to your Spanish-speaking girlfriend, using simple English + small Spanish hints.
+Identify the security issue.
 
-(Use your real-life context 😊)
+Rewrite code using secure practices.
 
-3. Knowledge Prompting With Context
+Explain how the fix works.
 
-Use this info:
+📌 Skills Tested:
+Security prompting + real-world awareness
 
-You are building an OCR + object detection whiteboard project
+🔹 Question 2: Debugging with Runtime Error
+Given Error:
+ZeroDivisionError: division by zero
 
-It extracts text from a live lecture
+Given Code:
+a = int(input())
+b = int(input())
+print(a / b)
 
-Converts output to PDF
+Student Task:
 
-Uses OpenCV + TensorFlow
+Explain root cause using AI.
 
-Task:
-Create a prompt that asks AI to generate a problem statement using ONLY these facts.
+Fix the code with proper error handling.
 
-4. Multi-Step Analysis Prompt
+Add input validation.
 
-Create a prompt where the AI must:
+Make it production-ready.
 
-List types of neural networks
+📌 Skills Tested:
+Runtime debugging + defensive coding
 
-Explain each
+🔹 Question 3: Convert Algorithm → Implementation
+Given Pseudocode:
+START
+Input array
+max = first element
+FOR each element
+   IF element > max
+      max = element
+PRINT max
+END
 
-Compare them
+Student Task:
 
-Give the best one for image classification
+Convert into C++ code.
 
-Justify the answer
+Break solution into functions.
 
-5. Self-Consistency Reasoning Task
+Handle empty array case.
 
-Write a prompt that asks the AI to:
+Explain time complexity.
 
-Propose 3 ways to improve a student's ML study plan
+📌 Skills Tested:
+Algorithm conversion + robustness
 
-Then choose the most realistic method
+🔹 Question 4: Architecture-Level Problem
+Problem:
 
-Then justify its selection
+Design a URL Shortener System (like Bitly).
 
-6. Refactoring Prompt
+Student Task:
 
-Give a prompt asking the AI to refactor a poorly written C code snippet for readability + performance.
+Use AI to:
 
-7. Debug a Faulty Prompt
+Design system architecture.
 
-Fix this prompt:
-“Tell me everything about machine learning.”
+Identify components.
 
-Rewrite a clear, structured, goal-specific version.
+Handle scalability for millions of users.
 
-8. Write a Safe Prompt
+Choose database and explain why.
 
-Write a prompt that asks the AI to explain social engineering attacks but must not give actionable harmful steps.
+📌 Skills Tested:
+Architecture prompting + system design
 
-9. Hallucination-Control Prompt
+🔹 Question 5: Performance Optimization (Interview Level)
+Problem:
 
-Write a prompt where the AI must answer using ONLY verified information and include:
-“If any detail is uncertain, respond with: ‘Not enough data.’”
+Find the second largest element in an array.
+
+Student Task:
+
+Write brute force solution.
+
+Optimize to O(n) time and O(1) space.
+
+Ask AI to explain optimized logic.
+
+Write clean interview-ready code.
+
+📌 Skills Tested:
+Performance + interview readiness
