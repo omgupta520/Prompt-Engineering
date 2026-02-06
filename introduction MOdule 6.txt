@@ -1,0 +1,278 @@
+Module 6: Prompting for Business, Marketing & SEO
+
+🎯 Module Objective
+
+By the end of this module, learners will be able to:
+
+Use AI prompts for real-world business use cases
+
+Build strong brand messaging using AI
+
+Generate marketing, SEO, and sales content
+
+Rewrite and optimize content effectively
+
+Create high-converting emails, ads, and lead magnets
+
+This module is practical, industry-focused, and job-ready.
+
+1️⃣ Prompts for Branding
+📌 What is Branding?
+
+Branding is how people perceive your business—your voice, tone, values, and identity.
+
+AI can help define:
+
+Brand voice
+
+Taglines & slogans
+
+Mission & vision statements
+
+Brand personality
+
+✅ Example Branding Prompts
+
+🔹 Brand Identity
+
+"Act as a branding expert. Create a brand identity for a startup that provides AI-based education for college students. Include tone, values, and personality."
+
+🔹 Tagline Creation
+
+"Generate 10 catchy taglines for a fitness app focused on busy professionals."
+
+🔹 Brand Voice
+
+"Define a brand voice that is professional, friendly, and tech-savvy for a SaaS product."
+
+🧠 Teaching Tip: Always mention:
+
+Target audience
+
+Industry
+
+Brand tone (formal, fun, bold, premium)
+
+2️⃣ Prompts for Marketing
+📌 Marketing with AI
+
+Marketing focuses on:
+
+Attracting customers
+
+Communicating value
+
+Driving action
+
+AI helps generate:
+
+Campaign ideas
+
+Social media posts
+
+Product descriptions
+
+Marketing strategies
+
+✅ Example Marketing Prompts
+
+🔹 Marketing Strategy
+
+"Create a 30-day marketing plan for an online coding course targeting beginners."
+
+🔹 Social Media Content
+
+"Generate 7 Instagram post ideas to promote a new skincare brand."
+
+🔹 Product Marketing
+
+"Write a compelling product description for wireless earbuds under ₹2,000."
+
+🧠 Teaching Tip: Good marketing prompts include:
+
+Platform (Instagram, LinkedIn, Email)
+
+Goal (sales, awareness, engagement)
+
+Target audience
+
+3️⃣ Prompts for SEO (Search Engine Optimization)
+📌 Why SEO Matters?
+
+SEO helps content rank higher on Google, bringing free organic traffic.
+
+AI helps with:
+
+Keyword research
+
+SEO blogs
+
+Meta titles & descriptions
+
+Content optimization
+
+✅ Example SEO Prompts
+
+🔹 Keyword Research
+
+"Find low-competition SEO keywords for a blog on Python for beginners."
+
+🔹 SEO Blog Writing
+
+"Write an SEO-optimized blog on 'Best Programming Languages in 2025' with headings and FAQs."
+
+🔹 Meta Tags
+
+"Generate an SEO-friendly meta title and description for an article on digital marketing."
+
+🧠 Teaching Tip: Use words like:
+
+SEO-optimized
+
+Search intent
+
+Long-tail keywords
+
+Headings (H1, H2)
+
+4️⃣ Prompts for Email Writing
+📌 Email Types
+
+Marketing emails
+
+Sales emails
+
+Cold emails
+
+Follow-ups
+
+Newsletters
+
+AI helps write clear, persuasive, and professional emails.
+
+✅ Example Email Prompts
+
+🔹 Cold Email
+
+"Write a cold email pitching web development services to small businesses. Keep it short and professional."
+
+🔹 Marketing Email
+
+"Create a promotional email for a Diwali sale with urgency and CTA."
+
+🔹 Follow-up Email
+
+"Write a polite follow-up email after no response for 7 days."
+
+🧠 Teaching Tip: Mention:
+
+Email purpose
+
+Tone (formal / friendly)
+
+CTA (Call to Action)
+
+5️⃣ Prompts for Content Rewriting
+📌 Why Rewrite Content?
+
+Improve clarity
+
+Make content professional
+
+Optimize for SEO
+
+Change tone or length
+
+✅ Example Rewriting Prompts
+
+🔹 Tone Change
+
+"Rewrite this paragraph in a professional tone: [paste content]"
+
+🔹 Simplification
+
+"Rewrite this content in simple English for beginners."
+
+🔹 SEO Rewrite
+
+"Rewrite this blog to make it SEO-friendly without changing meaning."
+
+🧠 Teaching Tip: Always specify:
+
+Target audience
+
+Desired tone
+
+Length (shorter / detailed)
+
+6️⃣ Prompts for Lead Generation
+📌 What is Lead Generation?
+
+Lead generation collects potential customer information (email, phone, interest).
+
+AI helps create:
+
+Lead magnets
+
+Landing page copy
+
+Forms & CTAs
+
+✅ Example Lead Generation Prompts
+
+🔹 Lead Magnet Ideas
+
+"Suggest 10 lead magnet ideas for a digital marketing agency."
+
+🔹 Landing Page Copy
+
+"Write landing page content to collect emails for a free AI course."
+
+🔹 CTA Creation
+
+"Generate 5 high-converting CTA lines for lead generation."
+
+🧠 Teaching Tip: Use urgency + value:
+
+Free
+
+Limited time
+
+Exclusive
+
+7️⃣ Prompts for Ad Copy & Sales Copy
+📌 Difference Between Ad Copy & Sales Copy
+
+Ad Copy: Short, attention-grabbing
+
+Sales Copy: Persuasive, detailed, conversion-focused
+
+AI helps with:
+
+Facebook & Google ads
+
+Sales pages
+
+Product launches
+
+✅ Example Ad & Sales Copy Prompts
+
+🔹 Ad Copy
+
+"Write 5 Facebook ad copies for an online Python course targeting college students."
+
+🔹 Sales Page Copy
+
+"Create persuasive sales copy for a resume-building service."
+
+🔹 A/B Variations
+
+"Generate 3 variations of ad copy for testing conversions."
+
+🧠 Teaching Tip: Strong copy includes:
+
+Pain point
+
+Benefit
+
+CTA

@@ -1,0 +1,206 @@
+🧠 Section 1: Branding – Advanced Scenarios
+Q1.
+
+You are launching a premium AI coaching platform for working professionals (25–40 age group).
+
+👉 Write a single master prompt that asks AI to generate:
+
+Brand voice
+
+Brand personality
+
+Mission statement
+
+3 taglines
+
+Constraints:
+
+Tone must feel premium but not corporate
+
+Audience is Indian professionals
+
+Q2.
+
+A startup says: “Our brand sounds generic and boring.”
+
+👉 Write a prompt that asks AI to:
+
+Analyze the current brand tone (assume content is provided)
+
+Suggest improvements
+
+Rewrite the tone to be more bold and modern
+
+📢 Section 2: Marketing – Strategy Level Prompts
+Q3.
+
+A company selling online data analytics courses is not getting conversions.
+
+👉 Write a prompt asking AI to:
+
+Diagnose possible marketing issues
+
+Suggest 3 campaign ideas
+
+Recommend platforms (Instagram, LinkedIn, Email, etc.)
+
+Q4.
+
+You are promoting a new mobile app with zero followers and zero budget.
+
+👉 Create a prompt to generate:
+
+A 14-day organic marketing plan
+
+Content ideas per day
+
+Growth hacks
+
+🔍 Section 3: SEO – High-Difficulty Practice
+Q5.
+
+You run a blog in a high-competition niche (Digital Marketing).
+
+👉 Write a prompt that asks AI to:
+
+Find low-competition long-tail keywords
+
+Match keywords with search intent
+
+Suggest blog titles
+
+Q6.
+
+You already have a blog ranking on page 2 of Google.
+
+👉 Write a prompt to:
+
+Analyze why it is not ranking on page 1
+
+Suggest on-page SEO improvements
+
+Rewrite headings (H1–H3)
+
+✉️ Section 4: Email Writing – Real Business Pressure
+Q7.
+
+You are sending a cold email to a CTO who ignores most emails.
+
+👉 Write a prompt to generate an email that:
+
+Is under 120 words
+
+Sounds human, not salesy
+
+Ends with a soft CTA
+
+Q8.
+
+Your previous marketing email had a low open rate.
+
+👉 Write a prompt asking AI to:
+
+Rewrite the subject line (5 variations)
+
+Improve email body
+
+Increase urgency without sounding spammy
+
+✍️ Section 5: Content Rewriting – Precision Test
+Q9.
+
+You have a technical blog written for developers.
+
+👉 Write a prompt to:
+
+Rewrite it for non-technical business owners
+
+Keep meaning same
+
+Reduce length by 30%
+
+Q10.
+
+A client wants the same content rewritten into:
+
+LinkedIn post
+
+Instagram caption
+
+Email snippet
+
+👉 Write one prompt that handles all three formats.
+
+🎯 Section 6: Lead Generation – Conversion Thinking
+Q11.
+
+You are offering a free webinar on AI for beginners.
+
+👉 Write a prompt to generate:
+
+Landing page headline
+
+Sub-headline
+
+Lead form CTA
+
+Thank-you page message
+
+Q12.
+
+Leads are coming in but quality is poor.
+
+👉 Write a prompt to:
+
+Redesign lead qualification questions
+
+Filter serious users
+
+Improve lead quality
+
+💰 Section 7: Ad Copy & Sales Copy – Expert Level
+Q13.
+
+Write a prompt that asks AI to generate:
+
+3 Google Ads (short)
+
+3 Facebook Ads (emotional)
+
+For the same product: Online Python Course
+
+Q14.
+
+You have a sales page with high traffic but low conversion.
+
+👉 Write a prompt to:
+
+Identify weak sections
+
+Rewrite copy using pain → solution → benefit
+
+Add strong CTAs
+
+🔥 Section 8: Meta-Prompting (Advanced)
+Q15.
+
+Create a reusable prompt template that can be used for:
+
+Branding
+
+Marketing
+
+SEO
+
+Sales
+
+The template should include placeholders like: [Audience], [Goal], [Tone], [Platform]
+
+🧪 Bonus Challenge (Interview-Style)
+Q16.
+
+Explain why vague prompts fail in business use cases. Then write:
+
+One bad prompt
+
+One improved prompt
