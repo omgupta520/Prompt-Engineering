@@ -1,0 +1,312 @@
+📘 Module 7: Prompting for Data, ML & Analytics
+🔹 1. Data Extraction Prompts
+🎯 Goal:
+
+Use prompts to extract structured data from:
+
+Raw text
+
+PDFs
+
+Logs
+
+Emails
+
+Tables
+
+Screenshots (OCR output)
+
+🔹 What Students Should Learn
+
+Converting unstructured text → structured format
+
+Extracting specific fields
+
+Cleaning messy text
+
+Output formatting (JSON / CSV)
+
+🔹 Example 1: Extract Structured Data
+Input:
+Name: Rahul Sharma  
+Email: rahul@gmail.com  
+Skills: Python, SQL, Machine Learning  
+Experience: 2 years
+
+Prompt:
+Extract the following details in JSON format:
+- Name
+- Email
+- Skills (as a list)
+- Experience (in years)
+
+Text:
+<insert text>
+
+Output:
+{
+  "Name": "Rahul Sharma",
+  "Email": "rahul@gmail.com",
+  "Skills": ["Python", "SQL", "Machine Learning"],
+  "Experience": 2
+}
+
+🔹 Advanced Prompt (Production Level)
+You are a data extraction assistant.
+Extract structured information strictly in JSON format.
+If any field is missing, return null.
+
+Fields:
+- Name
+- Email
+- Phone
+- Skills
+- Experience (numeric only)
+
+Text:
+
+🔹 2. CSV → Insights Prompts
+🎯 Goal:
+
+Upload CSV data and get:
+
+Summary insights
+
+Patterns
+
+Business conclusions
+
+🔹 Teaching Concept:
+
+Instead of manually analyzing CSV, we prompt:
+
+Analyze the dataset and provide:
+1. Summary statistics
+2. Key trends
+3. Outliers
+4. Business insights
+5. Recommendations
+
+🔹 Example Dataset:
+
+Sales data with:
+
+Date
+
+Region
+
+Revenue
+
+Product
+
+🔹 Sample Prompt:
+You are a data analyst.
+Analyze the following dataset and provide:
+
+1. Total revenue
+2. Best performing region
+3. Monthly trend
+4. Any anomalies
+5. Strategic recommendations
+
+Dataset:
+<insert CSV>
+
+🔹 3. Data Normalization Prompts
+🎯 Goal:
+
+Standardize messy data
+
+Example problems:
+
+Uppercase/lowercase mismatch
+
+Different date formats
+
+Mixed currency
+
+Misspellings
+
+🔹 Example Prompt:
+Normalize the following dataset:
+
+Rules:
+- Convert all names to Title Case
+- Standardize dates to YYYY-MM-DD
+- Convert currency to INR
+- Remove duplicates
+
+Data:
+<insert data>
+
+🔹 Teaching Insight:
+
+LLM helps in:
+
+Data cleaning
+
+Schema validation
+
+Format enforcement
+
+🔹 4. Prompting for EDA (Exploratory Data Analysis)
+🎯 Goal:
+
+Use prompts to:
+
+Identify correlations
+
+Detect missing values
+
+Suggest visualizations
+
+Highlight patterns
+
+🔹 Example EDA Prompt:
+You are a data scientist.
+Perform exploratory data analysis on this dataset.
+
+Include:
+- Missing values analysis
+- Distribution analysis
+- Correlation insights
+- Outlier detection
+- Suggested visualizations
+- Key observations
+
+Dataset:
+
+🔹 Advanced EDA Prompt
+Act as a senior data scientist preparing for stakeholder presentation.
+Focus on business insights, not just technical stats.
+Highlight actionable insights.
+
+
+👉 This teaches role-based prompting
+
+🔹 5. ML Conceptual Prompting
+🎯 Goal:
+
+Use LLM to:
+
+Choose model
+
+Explain algorithms
+
+Compare models
+
+Debug ML logic
+
+🔹 Example 1: Model Selection Prompt
+I have a dataset with:
+- 10,000 rows
+- 20 features
+- Target variable: binary (0/1)
+
+Suggest:
+1. Suitable ML algorithms
+2. Why each is suitable
+3. Pros & cons
+4. Evaluation metrics
+
+🔹 Example 2: Debug ML Pipeline
+My accuracy is 98% but validation accuracy is 60%.
+Explain possible reasons and how to fix it.
+
+
+👉 Teaches:
+
+Overfitting
+
+Data leakage
+
+Bias-variance tradeoff
+
+🔹 6. Writing ML Reports Automatically
+🎯 Goal:
+
+Generate:
+
+Project reports
+
+Internship reports
+
+Final year project documentation
+
+Model evaluation summary
+
+🔹 Prompt Template for ML Report
+Generate a professional ML project report.
+
+Project Title: Spam Email Classifier
+Dataset: Kaggle Spam Dataset
+Algorithms used: Naive Bayes, Logistic Regression
+Accuracy: 94%
+
+Include:
+1. Introduction
+2. Problem Statement
+3. Dataset Description
+4. Data Preprocessing
+5. Model Building
+6. Evaluation
+7. Results
+8. Conclusion
+9. Future Scope
+
+🔹 Advanced Version (Industry Style)
+Write a detailed ML report suitable for submission in a corporate environment.
+Use formal tone.
+Include technical explanation and business impact.
+
+🔹 7. Data Visualization Prompts
+🎯 Goal:
+
+Generate:
+
+Python matplotlib code
+
+Seaborn charts
+
+Power BI visualization ideas
+
+Dashboard suggestions
+
+🔹 Example Prompt
+Suggest suitable visualizations for:
+- Sales by region
+- Monthly revenue trend
+- Customer segmentation
+- Product performance
+
+Explain why each chart is suitable.
+
+🔹 Code Generation Prompt
+Generate Python matplotlib code to:
+1. Plot revenue trend
+2. Show region-wise comparison using bar chart
+3. Plot correlation heatmap
+
+Do not use seaborn.
+Use separate plots.
+
+
+(Important in real projects)
+
+🔥 BONUS: Prompt Framework for Data/ML
+
+Teach this structure:
+
+🔹 The D.A.T.A Framework
+
+D – Define Role
+“You are a senior data analyst…”
+
+A – Assign Task
+“Perform EDA and extract insights…”
+
+T – Technical Constraints
+“Return output in JSON…”
+
+A – Actionable Output
+“Provide business recommendations…”

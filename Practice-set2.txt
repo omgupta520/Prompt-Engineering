@@ -1,99 +1,139 @@
-⭐ Practice Set 2 — Real-World Scenario Tasks
+📘 PRACTICE SET 2 (Intermediate → Advanced)
 
-These tasks combine multiple expert prompt patterns in real practical use-cases.
+Now we go industry-level 🚀
 
-1. ReAct + Scratchpad
+🔹 Section A: Advanced MCQs (15)
 
-Write a prompt that forces the AI to analyze a student’s monthly expenses using Reason → Action → Observation, and perform all calculations in a scratchpad.
+In production data extraction, what should be included?
+A) Strict JSON schema
+B) Paragraph output
+C) Storytelling
+D) No constraints
 
-2. Tree-of-Thought for Career Planning
+Data leakage occurs when:
+A) Test data influences training
+B) Missing values exist
+C) Data is normalized
+D) Model is simple
 
-Write a ToT-style prompt that helps a student choose between:
+Which metric is best for imbalanced classification?
+A) Accuracy
+B) F1-score
+C) Mean
+D) MSE
 
-Data Science
+Feature scaling helps:
+A) Neural networks and distance-based models
+B) Reduce rows
+C) Increase noise
+D) Remove target
 
-Cybersecurity
+Business-focused EDA should:
+A) Only show mean
+B) Provide actionable insights
+C) Ignore stakeholders
+D) Avoid conclusions
 
-Full-Stack Development
+6–15. (Advanced ML & prompting concepts)
 
-AI must generate 3 branches, evaluate each, and choose the best based on criteria.
+🔹 Section B: Analytical Questions
 
-3. Graph Prompting for DBMS
+Design a robust prompt that:
 
-Create a graph-prompt asking the AI to explain how transactions, locks, ACID properties, and concurrency control interact in DBMS.
+Extracts structured invoice data
 
-4. Auto-Prompting for Project Idea
+Validates fields
 
-Ask AI to first generate the best prompt possible and then give you 5 innovative AI project ideas for ECE students.
+Flags missing values
 
-5. Wizard-of-Thought for Coding Debugging
+Explain how role-based prompting improves ML analysis.
 
-Write a wizard-style guided prompt where the AI must help a beginner debug this:
+Compare:
 
-for(int i = 1; i <= 5; i++);
-{
-    cout << i;
-}
+Logistic Regression
+
+Random Forest
+
+XGBoost
+When would you use each?
+
+Write a prompt to automatically generate:
+
+ML project documentation
+
+Including metrics and confusion matrix interpretation
+
+🔹 Section C: Debugging Prompts
+Q1:
+
+Bad Prompt:
+
+Analyze this dataset and tell me something.
 
 
-AI must teach slowly with hints.
+Improve it to make it production-ready.
 
-6. Schema-Driven Prompt for ML Concepts
+Q2:
 
-Provide this schema:
+Bad Prompt:
 
-{
-  "name": "",
-  "definition": "",
-  "math_form": "",
-  "use_cases": [],
-  "pros": [],
-  "cons": []
-}
+Extract details from this text.
 
 
-Create a prompt asking AI to fill it for “Softmax Regression.”
+Rewrite it with:
 
-7. Meta Prompt for Safer Output
+Schema
 
-Write a meta prompt ensuring AI:
+Error handling
 
-Avoids hallucinations
+Format constraint
 
-Says “Unknown” if unsure
+🔹 Section D: Industry Case Study
 
-Uses only verified facts
+You are a Data Scientist at an E-commerce company.
 
-Does not add imaginary sources
-Topic: “History of Deep Learning.”
+Dataset:
 
-8. Reflexion Prompting for Code Quality
+Customer ID
 
-Write a prompt where AI must:
+Age
 
-Write Python code to reverse a linked list
+Location
 
-Review its code
+Purchase History
 
-Improve it
+Last Login
 
-Explain the improvements
+Churn (Yes/No)
 
-9. Deliberate Prompting for Comparison
+Tasks:
 
-Write a prompt telling AI to think deeply and compare:
-SVM vs Decision Tree vs Random Forest
-→ List considerations
-→ Analyze each
-→ Give final conclusion
+Write EDA prompt.
 
-10. Mixed Pattern: (ToT + Meta + Schema)
+Write feature engineering prompt.
 
-Write a single prompt where AI must:
+Suggest ML model for churn prediction.
 
-Follow a schema
+Write evaluation prompt.
 
-Use tree-of-thought reasoning
+Generate executive-level report prompt.
 
-Follow meta instructions (factual, step-by-step, no assumptions)
-Topic: “Explain Reinforcement Learning.”
+Suggest dashboard visualizations.
+
+🔹 Section E: Advanced Prompt Engineering
+
+Design a master prompt that:
+
+Cleans dataset
+
+Performs EDA
+
+Suggests ML model
+
+Evaluates performance
+
+Generates business report
+
+Suggests visualizations
+
+Returns structured output

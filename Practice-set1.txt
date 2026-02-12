@@ -1,91 +1,151 @@
-⭐ Practice Set 1 — Technique-by-Technique Tasks
+PRACTICE SET 1 (Basic → Intermediate)
+🔹 Section A: MCQs (15 Questions)
 
-Each question asks the student to create a prompt using a specific expert prompt pattern.
+Data extraction prompting is mainly used to:
+A) Train ML models
+B) Convert unstructured text into structured format
+C) Increase model accuracy
+D) Deploy applications
 
-1. ReAct Prompting
+When extracting structured data, the safest output format is:
+A) Paragraph
+B) Bullet points
+C) JSON
+D) Story format
 
-Create a ReAct-style prompt to solve this problem:
-A shopkeeper buys 50 chocolates and sells 17. How many are left?
+Normalization of data helps in:
+A) Increasing dataset size
+B) Standardizing inconsistent formats
+C) Removing ML models
+D) Creating neural networks
 
-Your prompt must include:
+If dates appear as:
 
-Thought
+12/01/23
 
-Action
+2023-01-12
 
-Observation
+Jan 12 2023
+This is an example of:
+A) Missing data
+B) Data duplication
+C) Format inconsistency
+D) Feature engineering
 
-Final Answer
+EDA mainly helps in:
+A) Deployment
+B) Discovering patterns
+C) Cloud storage
+D) API integration
 
-2. Tree-of-Thought Prompting
+Which metric is suitable for binary classification?
+A) RMSE
+B) Accuracy
+C) Mean
+D) Variance
 
-Create a ToT prompt that forces the AI to generate 3 different approaches to plan a 1-month DSA study schedule and then select the best one.
+Overfitting means:
+A) Model performs well on training but poorly on validation
+B) Model performs poorly everywhere
+C) Model has fewer features
+D) Model is simple
 
-3. Graph Prompting
+Correlation heatmap is used to:
+A) Deploy model
+B) Show feature relationships
+C) Increase RAM
+D) Encode labels
 
-Write a prompt asking AI to explain how an LSTM works using a graph structure:
+A good data prompt must:
+A) Be vague
+B) Define role and constraints
+C) Avoid structure
+D) Be short only
 
-Nodes = components
+Data cleaning includes:
+A) Removing duplicates
+B) Adding noise
+C) Increasing outliers
+D) Deleting target column
 
-Edges = relationships
+11–15. (Instructor can add similar conceptual MCQs)
 
-Final answer = graph-based explanation
+🔹 Section B: Short Answer Questions
 
-4. Auto-Prompting
+Define data extraction prompting with example.
 
-Write a prompt that tells AI to first create the best possible prompt to explain “Neural Style Transfer,” and then answer using that generated prompt.
+What is data normalization? Give 3 use cases.
 
-5. Wizard-of-Thought Prompting
+Explain EDA in simple words.
 
-Write a prompt that makes the AI explain time complexity analysis as if it is a wizard teaching a beginner, using step-by-step hints.
+What is overfitting?
 
-6. Scratchpad Prompting
+Why should we specify output format in prompts?
 
-Create a prompt where the AI must solve:
-“What is 489 × 27?”
-using a scratchpad to show all intermediate steps before giving the final answer.
+🔹 Section C: Prompt Writing (Basic)
+Q1:
 
-7. Schema-Driven Prompt
+Write a prompt to extract:
 
-Provide a JSON schema for explaining “Decision Trees”:
+Name
 
-{
-  "definition": "",
-  "components": [],
-  "example": "",
-  "advantages": [],
-  "disadvantages": []
-}
+Email
 
+Phone
+from a resume text.
 
-Ask the AI to fill this schema strictly without extra text.
+Q2:
 
-8. Meta Prompting
+Write a prompt to:
 
-Create a meta prompt that instructs the AI to:
+Analyze a sales CSV
 
-Think step-by-step
+Identify best region
 
-Avoid assumptions
+Provide business recommendations
 
-Use factual information
+Q3:
 
-Format answer in clear bullet points
+Write a prompt to normalize:
 
-Use the topic: “Explain overfitting in machine learning.”
+Mixed date formats
 
-9. Reflexion Prompting
+Upper/lower case names
 
-Create a prompt where the AI must:
+Duplicate rows
 
-Give an answer about “Regularization techniques.”
+🔹 Section D: Scenario-Based
+Scenario 1:
 
-Review its own answer and identify mistakes.
+You receive messy customer data:
 
-Produce an improved answer.
+Names in caps
 
-10. Deliberate Prompting
+Phone numbers in different formats
 
-Create a prompt that forces the AI to “think carefully” about:
-“How to choose the best machine learning algorithm for a dataset.”
-The AI must list considerations → analyze them → then give a final recommendation.
+Missing emails
+
+Write a structured prompt to clean this dataset.
+
+Scenario 2:
+
+A model gives:
+Training accuracy: 98%
+Validation accuracy: 62%
+
+What could be wrong? Explain.
+
+🔹 Section E: Mini Case Study
+
+You are given:
+
+5000 sales records
+
+Columns: Date, Region, Product, Revenue
+
+Tasks:
+
+Write EDA prompt
+Suggest suitable visualizations
+Suggest ML model to predict revenue
+Write summary report prompt
