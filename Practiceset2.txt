@@ -1,0 +1,70 @@
+🔴 Level 4: Mini Projects (Important 🚀)
+💻 Project 1: AI Email Generator
+
+Build:
+
+👉 Input: Topic
+👉 Output: Email
+
+Steps:
+
+Create prompt template
+
+Call OpenAI API
+
+Print output
+
+💻 Project 2: Complaint Classifier
+
+Input:
+User complaint
+
+Output:
+
+{
+  "category": "",
+  "priority": "",
+  "action": ""
+}
+💻 Project 3: AI Chatbot (Basic)
+
+Build:
+
+User input
+
+Send to backend
+
+Call LLM
+
+Return response
+
+💻 Project 4: Resume Analyzer (🔥 Recommended)
+
+Workflow:
+
+Upload resume
+
+Extract text
+
+Send to LLM
+
+Return:
+
+Strengths
+
+Weaknesses
+
+Suggestions
+
+💻 Project 5: AI Trip Planner Agent
+
+Input:
+“Plan Goa trip under ₹20,000”
+
+Steps:
+
+Budget calculation
+
+Suggest hotels
+
+Return plan

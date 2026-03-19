@@ -1,0 +1,137 @@
+🚀 Module 9 Practice Set: AI Tools + Automation
+🟢 Level 1: Basics (Understanding + Simple Practice)
+✅ Q1. Identify Workflow Type
+
+Classify the workflow:
+
+Input → Clean Text → Summarize → Translate → Output
+
+👉 Is it:
+
+Linear
+
+Conditional
+
+Multi-agent
+
+✅ Q2. Fill the Missing Step
+
+Complete the workflow:
+
+User uploads image → ______ → Send to LLM → Output summary
+
+✅ Q3. Prompt Design
+
+Write a prompt for:
+
+👉 “Generate a LinkedIn post about AI trends in a professional tone under 100 words”
+
+✅ Q4. API Understanding
+
+Answer in 1–2 lines:
+
+👉 Why do we need APIs with LLMs?
+
+✅ Q5. Match the Following
+Concept	Match
+Chain	a. Stores chat history
+Memory	b. External function
+Tool	c. Multiple LLM steps
+🟡 Level 2: Practical Thinking
+✅ Q6. Build a Simple Workflow
+
+Design a workflow for:
+
+👉 “User uploads resume → system gives improvement suggestions”
+
+Write steps like:
+Input → Processing → Output
+
+✅ Q7. Conditional Workflow
+
+Create logic for:
+
+👉 Customer support system
+
+Condition:
+
+If complaint is urgent → escalate
+
+Else → store
+
+Write pseudo workflow.
+
+✅ Q8. Prompt Automation
+
+Convert this into a reusable template:
+
+👉 “Write a product description for iPhone in casual tone under 50 words”
+
+✅ Q9. JSON Output Prompt
+
+Write a prompt that:
+
+👉 Takes user feedback and returns:
+
+{
+  "sentiment": "",
+  "category": ""
+}
+✅ Q10. API Flow Understanding
+
+Explain flow:
+
+👉 “Book a movie ticket”
+
+🟠 Level 3: Implementation-Oriented
+✅ Q11. Node.js Code Completion
+
+Fill missing line:
+
+const response = await client.responses.create({
+  model: "gpt-4.1-mini",
+  input: "Explain AI workflows"
+});
+
+console.log(_________);
+✅ Q12. LangChain Concept
+
+Identify:
+
+👉 “Summarize → Translate → Format”
+
+Is this:
+
+Agent
+
+Chain
+
+Tool
+
+✅ Q13. RAG Flow
+
+Rearrange steps:
+
+Send to LLM
+
+Retrieve documents
+
+User question
+
+Generate answer
+
+✅ Q14. Agent vs Workflow
+
+Answer:
+
+👉 What is the main difference between:
+
+AI Workflow
+
+AI Agent
+
+(1–2 lines)
+
+✅ Q15. Tool Usage
+
+Give 2 examples where tools are required instead of LLM alone.
